@@ -1,0 +1,13 @@
+{
+  "name": "高云鹏 · AI Agent 工程师作品集",
+  "short_name": "高云鹏",
+  "description": "智能体开发工程师求职作品集：26 个项目 · LangGraph · RAG · LLM 微调",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#10a37f",
+  "icons": [
+    { "src": "./icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
