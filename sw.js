@@ -1,4 +1,4 @@
-const CACHE = 'gyp-portfolio-v21'
+const CACHE = 'gyp-portfolio-v22'
 const ASSETS = ['./index.html', './styles.css', './app.js', './manifest.json', './icon-192.png', './icon-512.png', './contact-qr.png', './resume.pdf']
 
 self.addEventListener('install', (e) => {
