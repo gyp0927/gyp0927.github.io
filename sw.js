@@ -1,5 +1,5 @@
-const CACHE = 'gyp-portfolio-v20'
-const ASSETS = ['./index.html', './styles.css', './app.js', './manifest.json', './icon-192.png', './icon-512.png', './contact-qr.png']
+const CACHE = 'gyp-portfolio-v21'
+const ASSETS = ['./index.html', './styles.css', './app.js', './manifest.json', './icon-192.png', './icon-512.png', './contact-qr.png', './resume.pdf']
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(ASSETS)).then(() => self.skipWaiting()))
